@@ -5,6 +5,8 @@
   --color-white: #e7e7d8;
   --color-eagle: #afac95;
   --color-orange: #ea4125;
+  --color-aureolin: #FFEF43;
+  /* --color-maize: hsl(55, 100%, 75%); */
 }
 .font-display {
   font-family: Basement, sans-serif;
@@ -48,14 +50,14 @@
       rgba(205, 205, 205, 0.2) 0px,
       rgba(205, 205, 205, 0.2) 1px,
       transparent 1px,
-      transparent 6px
+      transparent 50px
     ),
     repeating-linear-gradient(
       90deg,
       rgba(205, 205, 205, 0.2) 0px,
       rgba(205, 205, 205, 0.2) 1px,
       transparent 1px,
-      transparent 6px
+      transparent 50px
     ),
     linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }

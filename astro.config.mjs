@@ -6,7 +6,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   // add yur domain name here
-  site: 'https://lexingtonthemes.com',
+  site: 'https://dev-inc.vercel.app/',
   compressHTML: true,
   integrations: [sitemap()]
 });
