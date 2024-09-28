@@ -1,4 +1,6 @@
 ---
+import Diamond from "../icons/diamond.astro"
+
 const status = import.meta.env.PUBLIC_STATUS || 'OPENING SOON'
 ---
 
@@ -18,14 +20,14 @@ const status = import.meta.env.PUBLIC_STATUS || 'OPENING SOON'
       <div
         class='flex items-center animate-marquee font-black font-display gap-4 relative tracking-widest whitespace-nowrap'
       >
-        {status} <span class='hidden lg:inline'>⏤</span> {status} <span
-          class='hidden lg:inline'>⏤</span
-        > {status} <span class='hidden lg:inline'>⏤</span> {status} <span
-          class='hidden lg:inline'>⏤</span
-        > {status} <span class='hidden lg:inline'>⏤</span> {status} <span
-          class='hidden lg:inline'>⏤</span
-        > {status} <span class='hidden lg:inline'>⏤</span> {status} <span
-          class='hidden lg:inline'>⏤</span
+        {status} <span class='hidden lg:inline'><Diamond /></span> {status} <span
+          class='hidden lg:inline'><Diamond /></span
+        > {status} <span class='hidden lg:inline'><Diamond /></span> {status} <span
+          class='hidden lg:inline'><Diamond /></span
+        > {status} <span class='hidden lg:inline'><Diamond /></span> {status} <span
+          class='hidden lg:inline'><Diamond /></span
+        > {status} <span class='hidden lg:inline'><Diamond /></span> {status} <span
+          class='hidden lg:inline'><Diamond /></span
         > {status} <span class='hidden lg:inline'></span>
       </div>
     </div>
