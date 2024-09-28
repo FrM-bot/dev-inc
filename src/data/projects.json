@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "id": "import-arg",
+            "image": "/work/1.webp",
+            "title": "ImportARG",
+            "link": "https://importarg.vercel.app/"
+        },
+        {
+            "id": "frm-bot",
+            "image": "/work/2.webp",
+            "title": "FrM-Bot portfolio",
+            "link": "https://frm-bot.vercel.app/"
+        },
+        {
+            "id": "blog-cafe",
+            "image": "/work/3.webp",
+            "title": "Blog Café",
+            "link": "https://blog-cafe-two.vercel.app/"
+        },
+        {
+            "id": "ai-image-generator",
+            "image": "/work/4.webp",
+            "title": "Image generator",
+            "link": "https://ai-image-generation-jhrg.vercel.app/"
+        },
+        {
+            "id": "wiki-anime",
+            "image": "/work/5.webp",
+            "title": "Wiki Anime",
+            "link": "https://wiki-anime.vercel.app/"
+        },
+        {
+            "id": "wallet",
+            "image": "/work/6.webp",
+            "title": "Wallet",
+            "link": "https://henry-pf-client.vercel.app/"
+        },
+        {
+            "id": "go-social",
+            "image": "/work/7.webp",
+            "title": "Go Social",
+            "link": "https://gosocial-client.vercel.app/"
+        },
+        {
+            "id": "festival",
+            "image": "/work/8.webp",
+            "title": "Rock & EDM Festival",
+            "link": "https://festival-gilt.vercel.app/"
+        },
+        {
+            "id": "crypto-wallet",
+            "image": "/work/9.webp",
+            "title": "Crypto Wallet",
+            "link": "https://challenge-bitnomo.vercel.app/createPayment"
+        }
+    ]
+}
