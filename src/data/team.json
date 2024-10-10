@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "fullName": "Maciel Franco",
+            "position": "Desarrollador",
+            "image": "/team/frm-bot.webp",
+            "social": {
+                "LinkedIn": "https://www.linkedin.com/in/frm-bot/"
+            }
+        },
+        {
+            "fullName": "Alberto Díaz",
+            "position": "Desarrollador",
+            "image": "/team/alberto.webp",
+            "social": {
+                "LinkedIn": "https://www.linkedin.com/in/alberto-diaz-lugo-91b0a0239/"
+            }
+        },
+        {
+            "fullName": "Sebastian Godoy",
+            "position": "Director de Ventas",
+            "image": "/team/seba.webp",
+            "social": {
+                "Instagram": "https://www.linkedin.com/in/sebastian-godoy-b3b1b31a1/"
+            }
+        }
+    ]
+}

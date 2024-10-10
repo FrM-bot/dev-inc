@@ -1,25 +1,54 @@
-<h2 class='px-8 pt-8 text-white font-display uppercase text-3xl lg:text-6xl'>
-  Equipo
-</h2>
-<div
-  class='text-white text-xs gap-3 gap-y-12 grid grid-cols-1 md:grid-cols-5 mx-auto p-8 pt-0 sm:grid-cols-2'
->
-  <div class='flex flex-col justify-between h-full'>
-    <div class='mt-3'>
-      <span class='block font-semibold mt-3 text-lg'>Maciel Franco</span>
-      <span class='block text-eagle'>Desarrollador</span>
-    </div>
-  </div>
-  <div class='flex flex-col justify-between h-full'>
-    <div class='mt-3'>
-      <span class='block font-semibold mt-3 text-lg'>Alberto Díaz</span>
-      <span class='block text-eagle'>Desarrollador</span>
-    </div>
-  </div>
-  <div class='flex flex-col justify-between h-full'>
-    <div class='mt-3'>
-      <span class='block font-semibold mt-3 text-lg'>Sebastian Godoy</span>
-      <span class='block text-eagle'>Director de Ventas</span>
+---
+import * as TeamData from "@/data/team.json"
+---
+
+<div class='mx-auto max-w-7xl border-x border-b border-white/20 px-8 py-12'>
+  <div class='mx-auto'>
+    <h2 class='text-white font-display text-3xl lg:text-6xl'>EQUIPO</h2>
+    <div
+      class='text-white text-xs gap-3 gap-y-12 grid grid-cols-1 md:grid-cols-3 mx-auto sm:grid-cols-2'
+    >
+      {
+        TeamData.data.map((team) => {
+          const redirectLink = team.social?.LinkedIn || team.social?.Instagram
+          return (
+          <div class='mt-3'>
+            <a href={redirectLink} target='_blank' rel='noopener noreferrer'>
+              <picture>
+                <img
+                  src={team.image}
+                  alt={team.fullName}
+                  class='aspect-square object-cover object-center'
+                />
+              </picture>
+            </a>
+            <a
+              class='block font-semibold mt-3 text-lg'
+              href={redirectLink}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {team.fullName}
+            </a>
+            <span class='block text-eagle'>{team.position}</span>
+            <div class="flex gap-2 flex-wrap mt-4">
+              {
+                Object.entries(team.social).map(([key, value]) => (
+                  <a
+                    href={value}
+                    target='_blank'
+                    class='text-black bg-aureolin duration-200 font-display hover:bg-blacktext-white lg:w-auto px-3 py-1 text-center text-xs'
+                  >
+                    {key}
+                  </a>
+
+                ))
+              }
+            </div>
+          </div>
+        )
+        })
+      }
     </div>
   </div>
 </div>
